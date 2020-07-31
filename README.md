@@ -1,6 +1,6 @@
 # Socket on TCP/IP
 
-Este projeto contempla a implementação de Socket Server, Socket Cliente e Scraping no [IMDB](https://www.imdb.com.br) que retorna os 50 primeiros títulos de filmes consultados por meio do protocolo estabelecido para comunicação com o servidor de socket.     
+Este projeto contempla a implementação de Socket Server, Socket Cliente e Scraping no [IMDB](https://www.imdb.com) que retorna os 50 primeiros títulos de filmes consultados por meio do protocolo estabelecido para comunicação com o servidor de socket.     
 
 ## Protocolo
 
