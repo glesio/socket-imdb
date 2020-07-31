@@ -8,7 +8,7 @@ As consultas enviadas para o servidor seguem o seguinte padrão: `<query length>
 
 O resultado da consulta é enviado para o cliente seguindo o padrão `<payload length>:<payload>`. Caso o resultado da consulta seja mais de 1 registro, todos os registros devem ser agrupados em uma única resposta separada por *\n*.
 
-> Para fechar uma conexão com o servidor enviar a query `:close`
+Para fechar uma conexão com o servidor enviar a query `:close`
  
 ## Estrutura do Projeto
 
@@ -81,7 +81,7 @@ Abrindo conexão com o servidor na porta 1024
 >As consultas digitadas no telnet devem seguir o padrão d padrão do protocolo descrito.
 >Para pesquisar o filme Matrix deve ser digitado o seguinte valor '6:Matrix' e pressionar <enter> para o título ser consultado.
 
->Para fechar a conexão digitar `:close` e pressionar <enter>
+>Para fechar a conexão digitar `:close` e pressionar `<enter>`
 
 
 ##### Interativo
