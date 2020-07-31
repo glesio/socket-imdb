@@ -8,7 +8,6 @@ import java.util.List;
 
 public class IMDBSearch {
 
-//    private static final String URL = "https://www.imdb.com/find";
     private static final String URL = "https://www.imdb.com/search/title/";
     public List<String> byTitle(String title) throws IMDBException {
         try {
