@@ -12,7 +12,7 @@ public class TextProtocol {
         return format(message);
     }
 
-    public String payload(final List payloads) {
+    public String payload(final List<String> payloads) {
         return format(String.join(LINE_SEPARATOR, payloads).concat(LINE_SEPARATOR));
     }
 
